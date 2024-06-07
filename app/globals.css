@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+html {
+  font-family: 'Segoe UI', 'Inter', sans-serif;
+}
+.font-segoe-ui {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+:root {
+  background-color: #f5f5f5;
+}
+
+.group:hover .bg-white {
+  background-color: #26be69;
+}
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+.scroll-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.border-gradient {
+  border: 2px solid;
+  border-image-slice: 2;
+  /* border-width: 5px; */
+  border-image-source: linear-gradient(to right, #FFFFE4, #CDCDCD,#CDCDCD,#FFFFE4);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
